@@ -25,3 +25,4 @@ sudo unlink /etc/gunicorn.d/hello
 sudo ln -s /home/box/web/etc/hello /etc/gunicorn.d/hello
 
 sudo bash /home/box/web/etc/init.sh
+sudo /etc/init.d/gunicorn restart
